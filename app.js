@@ -15,7 +15,7 @@ app.use(methodOverride("_method"));
 
 app.use("/addProf", require("./routes/addUser"));
 
-
+ 
 const allRoutes = require("./routes/allRoutes");
 const addUserRoute = require("./routes/addUser");
 const addUserRoutee = require("./routes/addUserRoutee");
